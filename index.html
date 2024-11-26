@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NE</title>
     <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
     <style>
         @import url("https://fonts.googleapis.com/css2?family=Corben&family=Mulish&family=Outfit&family=Raleway:wght@300&display=swap");
@@ -19,7 +19,7 @@
         }
 
         #qrCodeBox {
-          height: 550px;
+          height: 600px;
           width: 355px;
           background: #fffffd;
           border-radius: 20px 20px 20px 20px;
@@ -82,12 +82,19 @@
         }
 
         #two {
-          margin-top: -7px;
+          margin-bottom: 10px;
         }
     </style>
 </head>
 <body>
     <div id="qrCodeBox">
+      <div class="text">
+
+        <p id="one">
+          Avaliação do Estado Nutricional a Plano Alimentar
+        </p>
+      </div>
+      <hr>
         <div id="qrCodeSquareFrame">
           <div id="bubble_01"></div>
           <div id="bubble_02"></div>
@@ -95,12 +102,10 @@
             <div id="qrcode"></div>
           </div>
         </div>
+        <hr>
         <div class="text">
-            <p id="one">
-              Educação Alimentar e Nutricional - PNAE
-            </p>
             <p id="two">
-              Acesse o QRCode e veja os slides de apresentação do Grupo!
+              Acesse o QRCode e veja o banner de apresentação do Grupo!
             </p>
         </div>
     </div>
